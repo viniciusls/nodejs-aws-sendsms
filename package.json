@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/viniciusls/nodejs-sendsms#readme",
   "dependencies": {
+    "aws-sdk": "^2.327.0",
     "body-parser": "^1.18.3",
     "consign": "^0.1.6",
     "ejs": "^2.6.1",
