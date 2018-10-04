@@ -1,16 +1,5 @@
-const aws = require('aws-sdk');
+const app = require('./config/server');
 
-aws.config.region = 'us-east-1';
-
-const sns = new aws.SNS();
-
-const params = {
-    Message: 'This is a test message',
-    MessageStructure: 'string',
-    PhoneNumber: ''
-};
-
-sns.publish(params, (err, data) => {
-    if (err) console.log(err, err.stack);
-    else console.log(data);
+app.listen(3000, () => {
+    console.log('Server is running');
 });
