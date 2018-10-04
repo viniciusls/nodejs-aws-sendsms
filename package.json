@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/viniciusls/nodejs-sendsms/issues"
   },
-  "homepage": "https://github.com/viniciusls/nodejs-sendsms#readme"
+  "homepage": "https://github.com/viniciusls/nodejs-sendsms#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
