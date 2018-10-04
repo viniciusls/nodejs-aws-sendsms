@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-sendsms",
+  "version": "1.0.0",
+  "description": "A NodeJS application to send SMS using Amazon SNS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusls/nodejs-sendsms.git"
+  },
+  "keywords": [
+    "nodejs",
+    "aws",
+    "amazon",
+    "sns",
+    "sms"
+  ],
+  "author": "Vinicius Silva <vinicius768@msn.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viniciusls/nodejs-sendsms/issues"
+  },
+  "homepage": "https://github.com/viniciusls/nodejs-sendsms#readme"
+}
