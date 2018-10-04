@@ -25,6 +25,7 @@
   "homepage": "https://github.com/viniciusls/nodejs-sendsms#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
     "ejs": "^2.6.1",
     "eslint": "^5.6.1",
     "eslint-config-rallycoding": "^3.2.0",
