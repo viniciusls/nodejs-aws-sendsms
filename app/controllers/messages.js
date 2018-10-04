@@ -1,4 +1,4 @@
-module.exports.home = (application, req, res) => {
+module.exports.create = (application, req, res) => {
 
 };
 
