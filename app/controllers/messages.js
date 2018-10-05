@@ -6,7 +6,7 @@ module.exports.send = (application, req, res) => {
     const body = req.body;
 
     req.assert('phonenumber', 'O número do destinatário é obrigatório.').notEmpty();
-    req.assert('phonenumber', 'A mensagem é obrigatória.').notEmpty();
+    req.assert('message', 'A mensagem é obrigatória.').notEmpty();
 
     const errors = req.validationErrors();
 
