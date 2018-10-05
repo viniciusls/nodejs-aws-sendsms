@@ -15,7 +15,7 @@ app.use(expressValidator());
 
 consign()
     .include('app/routes')
-//    .then('config/sns.js')
+    .then('config/sns.js')
     .then('app/controllers')
     .into(app);
 

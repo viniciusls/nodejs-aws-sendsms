@@ -4,6 +4,6 @@ module.exports = (application) => {
     });
 
     application.post('/messages/send', (req, res) => {
-        application.app.controllers.messages.store(application, req, res);
+        application.app.controllers.messages.send(application, req, res);
     });
 };
