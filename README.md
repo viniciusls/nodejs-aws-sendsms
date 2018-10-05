@@ -10,6 +10,7 @@ A NodeJS application to send SMS using Amazon SNS
 
 - Try it using **Postman** or **cURL**, e.g.: `curl --data "phonenumber=+5519994195715&message=This is a test message" http://localhost:3000/messages/send`
 
+## Parameters per endpoint
 ### messages/send
 - phonenumber: Phone number that will receive the message;
 - message: String containing the text that will be sent.
