@@ -1,4 +1,4 @@
-# nodejs-sendsms
+# nodejs-aws-sendsms
 A NodeJS application to send SMS using Amazon SNS
 
 ## How to use
